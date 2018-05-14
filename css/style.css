@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+}
+
+.slider {
+   width: 100vw;
+   height: auto;
+   overflow: hidden;
+}
+.slider ul {
+   width: 100%;
+   height: auto;
+   padding:0;
+   margin:0;
+}
+.slider li {
+   float: left;
+}
+
+.slider img {
+  max-width: 120vw;
+  height: auto;
+}
+
+.slider a {
+  position: absolute;
+  top: 50vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-size: 5em;
+  color: white;
+  text-decoration-line: none;
+}
+
+.slider a.prev {
+  left: 0
+}
+.slider a.next {
+  right: 0
+}
